@@ -6,6 +6,8 @@ namespace SelectionStatementsExercise032222_afternoon_exercise_
     {
         static void Main(string[] args)
         {
+            //Exercise # 1
+
             Console.WriteLine("Welcome to the number guessing game!!");
             Console.WriteLine("See if you can guess the correct number");
             Console.WriteLine("What is the upper limit for the range of the number");
@@ -33,9 +35,11 @@ namespace SelectionStatementsExercise032222_afternoon_exercise_
             {
                 Console.Write("Correct, you got it!!!");
 
+            //Exercise # 2
+
                 Console.WriteLine("\nWhat is your favorite school subject?");
 
-                var subject = Console.ReadLine(); // Evaluate to a string
+                var subject = Console.ReadLine(); //Evaluate to a string
 
                 switch (subject.ToLower())
                 {
